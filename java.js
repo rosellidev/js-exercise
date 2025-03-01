@@ -23,5 +23,45 @@
 // console.log(grows);
 
 
-let message;
-message = "Hello, i'm RoselliDEV";
+// let message;
+// message = "Hello, i'm RoselliDEV";
+
+// alert(message);
+
+// let message = "Hello im RoselliDEV";
+// console.log(message);
+
+// let user = 'Rico', age = 25, message = 'Hello im RoselliDEV'; //can use this but its not recommened due to readability.. So stick with a single line per variable.
+
+// let user = 'Rico';
+// let age = '25';
+// let message = 'Hello im RoselliDev';
+// console.log(user,age,message)
+
+// let user ='Rico';
+//     age = '25';
+//     message = 'Test';
+// console.log(user,age,message)
+
+// let message;
+// message = 'Hello';
+// message = 'Rico!';  //value is change due to the fact a new message value was changed
+// alert(message);
+
+// let hello = 'Hello Rico';
+
+// let message;
+
+// message = 'Hello';
+
+// alert(hello);
+// alert(message);
+
+function updateName() {
+    const name = prompt('Enter a new name');
+}
+
+const button = document.querySelector('button');
+
+button.addEventListener('click', updateName);
+
